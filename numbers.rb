@@ -11,7 +11,7 @@ p numbers.max
 
 
 #print the sum of the numbers
-puts numbers.inspect
+
 counter = 0
 numbers.each do |number|
   counter += number
