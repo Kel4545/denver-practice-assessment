@@ -49,3 +49,13 @@ forecast = [
     }
   }
 ]
+
+#print the temperature forecast for the next week
+#Go through the hash a pull out day, than temperature, than high than low
+
+
+p forecast[0]["day"].capitalize
+puts "high" #{forecast[0]['temperature']['high']}, "low"#{forecast[0]['temperature']['low']}
+
+
+#didn't finish in time!
