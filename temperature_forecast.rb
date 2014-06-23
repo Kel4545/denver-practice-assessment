@@ -50,12 +50,20 @@ forecast = [
   }
 ]
 
-#print the temperature forecast for the next week
-#Go through the hash a pull out day, than temperature, than high than low
 
 
-p forecast[0]["day"].capitalize
-puts "high" #{forecast[0]['temperature']['high']}, "low"#{forecast[0]['temperature']['low']}
 
 
-#didn't finish in time!
+
+
+
+#Answer figured out after time was up.....ahhhhhh!!! Come on, Focus Kelly!
+puts forecast.each { |a|
+  puts a["day"].capitalize
+
+  puts "High: #{a["temperatures"]["high"]}, Low: #{a["temperatures"]["low"]}"
+}
+
+
+
+
